@@ -15,7 +15,7 @@ except Exception as e:
     raise SystemExit("ERROR: {}".format(e))
 
 class Address(object):
-""" IPv4 address object """
+    """ IPv4 address object """
 
     def __init__(self, address='0.0.0.0'):
         """ IPv4 address information """
